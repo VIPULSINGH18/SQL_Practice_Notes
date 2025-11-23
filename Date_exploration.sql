@@ -24,4 +24,7 @@ SELECT
     DATEDIFF(YEAR, MIN(birthdate), GETDATE()) AS oldest_age,
     MAX(birthdate) AS youngest_birthdate,
     DATEDIFF(YEAR, MAX(birthdate), GETDATE()) AS youngest_age
-FROM gold.dim_customers;
+
+FROM gold.dim_customers;   
+
+-- The end
