@@ -24,4 +24,7 @@ SELECT DISTINCT
     subcategory, 
     product_name 
 FROM gold.dim_products
+
 ORDER BY category, subcategory, product_name;
+
+/* -------*/
