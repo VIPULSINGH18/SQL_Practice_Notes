@@ -44,4 +44,7 @@ SELECT 'Total Orders', COUNT(DISTINCT order_number) FROM gold.fact_sales
 UNION ALL
 SELECT 'Total Products', COUNT(DISTINCT product_name) FROM gold.dim_products
 UNION ALL
+
 SELECT 'Total Customers', COUNT(customer_key) FROM gold.dim_customers;
+
+/*the end*/
